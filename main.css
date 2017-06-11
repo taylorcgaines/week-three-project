@@ -1,0 +1,37 @@
+body{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.calcbody{
+  display: flex;
+  flex-direction: column;
+  height: 40vw;
+  width: 50%;
+  margin-top: 10vw;
+  font-size: 3rem;
+  text-align: center;
+  font-family: monospace;
+}
+.calcrow{
+  display:flex;
+  flex-direction: row;
+  flex-basis: 20%;
+}
+.calcbutt{
+  flex-basis: 25%;
+}
+.calcfield{
+  flex-basis: 75%;
+}
+.calcbody{
+  background-color: rgb(97,179,97);
+  color: rgb(205,230,215);
+}
+.calcop{
+  background-color: rgb(130,194,118);
+  color: rgb(65,97,57);
+}
+.calcrow div{
+  border: 1px solid rgb(175,217,169);
+}
